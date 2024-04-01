@@ -137,6 +137,9 @@ header nav .contact {
   flex-direction: column;
   gap: 1rem;
 }
+.trending .sofas .description h4 {
+  padding-top: 1rem;
+}
 .trending .sofas .text {
   display: flex;
   flex-direction: column;
@@ -175,6 +178,7 @@ header nav .contact {
 }
 .why-us .img-container {
   position: relative;
+  margin-top: 12rem;
 }
 .why-us .img-container .dots {
   position: absolute;
@@ -185,6 +189,7 @@ header nav .contact {
 .why-us .img-container .frame {
   position: relative;
   z-index: 1;
+  top: -2rem;
 }
 
 .trending,

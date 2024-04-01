@@ -177,6 +177,10 @@ header{
             display: flex;
             flex-direction: column;
             gap: 1rem;
+            
+            h4{
+                padding-top: 1rem;
+            }
 
         }
 
@@ -234,6 +238,9 @@ header{
 
     .img-container{
         position: relative;
+        margin-top: 12rem;
+        
+        
 
         .dots{
             position: absolute;
@@ -244,6 +251,8 @@ header{
         .frame{
             position: relative;
             z-index: 1;
+            top: -2rem;
+            
         }
         
     }
